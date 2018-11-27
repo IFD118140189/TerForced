@@ -22,7 +22,7 @@ int main(){
 				d++;	
 			}
 		}
-		if(d==2||d==3||c>3)
+		if(d>1 || c>3)
 		cout<<i<<endl;
 	}
 }

@@ -20,9 +20,12 @@ int main(){
 			} else if(i==2){
 				if(a[0]==f[0]||a[1]==f[1]||a[2]==f[2])
 				d++;	
+			} else if(c>3){
+				cout<<"3";
+				break;
 			}
 		}
-		if(d>1 || c>3)
+		if(d>1)
 		cout<<i<<endl;
 	}
 }
